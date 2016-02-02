@@ -1,0 +1,1 @@
+A simple login view for learning MVP architecture
