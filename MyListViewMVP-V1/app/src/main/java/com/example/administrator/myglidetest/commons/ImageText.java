@@ -1,7 +1,7 @@
 package com.example.administrator.myglidetest.commons;
 
 /**
- * Description :
+ * Description : ImageText
  * Email  : bigbigpeng3@gmail.com
  * Author : peng zhang
  * Date   : 2016-2-5
