@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape>
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:radius="9dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" /><!-- 设置圆角半径 -->
+
+            <solid android:color="#F2F6F5" /><!-- 填充的颜色 -->
+
+            <stroke android:width="1dp" android:color="#F31A39" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:radius="9dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" /><!-- 设置圆角半径 -->
+
+            <solid android:color="#F31A39" /><!-- 填充的颜色 -->
+
+            <stroke android:width="1dp" android:color="#F31A39" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:radius="9dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" /><!-- 设置圆角半径 -->
+
+            <solid android:color="#F2F6F5" /><!-- 填充的颜色 -->
+
+            <stroke android:width="1dp" android:color="#F31A39" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:radius="9dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" /><!-- 设置圆角半径 -->
+
+            <solid android:color="#F31A39" /><!-- 填充的颜色 -->
+
+            <stroke android:width="1dp" android:color="#F31A39" />
+        </shape>
+    </item>
+
+</selector>

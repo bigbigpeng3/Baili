@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/item_image"
+        android:text="留学资讯台"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/item_btn"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_title"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/button_selector"
+
+        android:text="订阅" />
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/item_title"
+        android:layout_below="@id/item_title"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@id/item_btn"
+        android:text="留学最新政策及行业发展新视角"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/item_content"
+        android:layout_marginTop="20dp"
+        android:background="#F2F6F5" />
+
+</RelativeLayout>

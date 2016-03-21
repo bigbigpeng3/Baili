@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 获得焦点但未按下时的背景图片 -->
+    <item android:drawable="@drawable/btn_activities_normal_shape" android:state_enabled="true" android:state_focused="true" android:state_pressed="false"/>
+
+    <!-- 按下时的背景图片 -->
+    <item android:drawable="@drawable/btn_activities_pressed_shape" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_activities_pressed_shape" android:state_enabled="true" android:state_focused="true"/>
+    <!-- 默认的背景图片 -->
+    <item android:drawable="@drawable/btn_activities_normal_shape"/>
+
+</selector>
