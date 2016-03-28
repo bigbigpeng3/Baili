@@ -1,0 +1,19 @@
+<body>  
+    <a>js invoke Android function 这是中文1</a>  
+    <script>  
+      
+    function funFromjs(var string1){
+        document.getElementById("helloweb").innerHTML="This is string1 : " + string1;
+    }  
+    var aTag = document.getElementsByTagName('a')[0];  
+    aTag.addEventListener('click', function(){  
+        //调用android本地方法
+        myObj.fun1FromAndroid("调用android本地方法fun1FromAndroid(String name)！！");  
+        return false;
+    }, false); 
+    </script>  
+    <p></p>  
+    <div id="helloweb">   
+  
+    </div>  
+</body>
